@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "EOCAutoDictionary.h"
 
 @interface ViewController ()
 
@@ -14,9 +15,13 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    EOCAutoDictionary *dict = [[EOCAutoDictionary alloc] init];
+    dict.date = [NSDate dateWithTimeIntervalSince1970:475372800];
+    NSLog(@"dict.date = %@",dict.date);
 }
 
 

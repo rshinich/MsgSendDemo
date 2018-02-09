@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F3E1997202D388C0070BBB7 /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E1996202D388C0070BBB7 /* EOCAutoDictionary.m */; };
 		9F98B948202C8BD80011E02A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F98B947202C8BD80011E02A /* AppDelegate.m */; };
 		9F98B94B202C8BD80011E02A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F98B94A202C8BD80011E02A /* ViewController.m */; };
 		9F98B94E202C8BD80011E02A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F98B94C202C8BD80011E02A /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F3E1995202D388C0070BBB7 /* EOCAutoDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCAutoDictionary.h; sourceTree = "<group>"; };
+		9F3E1996202D388C0070BBB7 /* EOCAutoDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCAutoDictionary.m; sourceTree = "<group>"; };
 		9F98B943202C8BD80011E02A /* MsgSendDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MsgSendDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F98B946202C8BD80011E02A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F98B947202C8BD80011E02A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				9F98B947202C8BD80011E02A /* AppDelegate.m */,
 				9F98B949202C8BD80011E02A /* ViewController.h */,
 				9F98B94A202C8BD80011E02A /* ViewController.m */,
+				9F3E1995202D388C0070BBB7 /* EOCAutoDictionary.h */,
+				9F3E1996202D388C0070BBB7 /* EOCAutoDictionary.m */,
 				9F98B94C202C8BD80011E02A /* Main.storyboard */,
 				9F98B94F202C8BD80011E02A /* Assets.xcassets */,
 				9F98B951202C8BD80011E02A /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3E1997202D388C0070BBB7 /* EOCAutoDictionary.m in Sources */,
 				9F98B94B202C8BD80011E02A /* ViewController.m in Sources */,
 				9F98B956202C8BD80011E02A /* main.m in Sources */,
 				9F98B948202C8BD80011E02A /* AppDelegate.m in Sources */,
